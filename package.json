@@ -1,0 +1,18 @@
+{
+  "name": "adaptive-trust-chain-atc",
+  "version": "1.1.0",
+  "private": true,
+  "description": "Reference smart contract and tests for the Adaptive Trust Chain (ATC)",
+  "license": "MIT",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-chai-matchers": "2.0.8",
+    "@nomicfoundation/hardhat-ethers": "3.0.8",
+    "chai": "4.5.0",
+    "ethers": "6.13.4",
+    "hardhat": "2.22.17"
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "title": "Adaptive Trust Chain (ATC): executable specification and reference smart contract",
+  "upload_type": "software",
+  "version": "1.1.0",
+  "license": "MIT",
+  "access_right": "open",
+  "description": "<p>Companion code for Ashraf, S. R. B., Rahman, H., Noche, B., and Gürpinar, T. <i>Adaptive Trust Chain: a permissioned blockchain framework for enforcing weld-parameter compliance at the controller level in green hydrogen infrastructure</i>. Frontiers in Blockchain (under review).</p><p>Contents: the WeldComplianceASC Solidity 0.8.20 contract (Algorithm 1) with Hardhat tests; the IEC 61131-3 Structured Text specification of the ASI-PLC compliance-bit logic (Algorithm 2); the Monte Carlo check of the interlock (n = 200, seed 2025); the mixed-population Weibull, Paris–Erdogan and workforce DTMC scenario models; a script that recomputes every reported value; scripts that regenerate Figures 3–5 and Supplementary Figures S1–S2; a Streamlit app and a browser demonstrator.</p><p>Research prototype: not deployed, not audited, and not a safety function. All quantitative inputs are scenario assumptions.</p>",
+  "creators": [
+    {
+      "name": "Ashraf, Sk. Riad Bin",
+      "affiliation": "Chair of Transport Systems and Logistics, University of Duisburg-Essen"
+    },
+    {
+      "name": "Rahman, Hasibur",
+      "affiliation": "Department of Industrial and Production Engineering, Islamic University of Technology"
+    },
+    {
+      "name": "Noche, Bernd",
+      "affiliation": "Chair of Transport Systems and Logistics, University of Duisburg-Essen"
+    },
+    {
+      "name": "Gürpinar, Tan",
+      "affiliation": "School of Business, Quinnipiac University"
+    }
+  ],
+  "keywords": [
+    "blockchain",
+    "distributed ledger technology",
+    "smart contract",
+    "QBFT",
+    "Web 4.0",
+    "digital product passport",
+    "green hydrogen infrastructure",
+    "weld certification",
+    "production-permissive interlock",
+    "Weibull reliability"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/smshashr/Adaptive-Trust-Chain-ATC",
+      "relation": "isSupplementTo",
+      "resource_type": "software"
+    },
+    {
+      "identifier": "10.5281/zenodo.23322427",
+      "relation": "isNewVersionOf",
+      "scheme": "doi",
+      "resource_type": "software"
+    }
+  ]
+}
